@@ -1,0 +1,268 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	height: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+a {
+	text-decoration: none;
+}
+body {
+	font: 12px/18px Arial, sans-serif;
+	width: 100%;
+	height: 100%;
+}
+.content {
+	width: 1024px;
+	margin: 0 auto;
+	height: inherit;
+}
+@font-face {
+	font-family: 'SegoeWPN';
+	src: url('fonts/SegoeWPN.eot');
+	src: url('fonts/SegoeWPN.eot') format('embedded-opentype'),
+	url('fonts/SegoeWPN.woff2') format('woff2'),
+	url('fonts/SegoeWPN.woff') format('woff'),
+	url('fonts/SegoeWPN.ttf') format('truetype'),
+	url('fonts/SegoeWPN.svg#SegoeWPN') format('svg');
+}
+@font-face {
+	font-family: 'Segoe_WP_Semibold';
+	src: url('fonts/Segoe_WP_Semibold.eot');
+	src: url('fonts/Segoe_WP_Semibold.eot') format('embedded-opentype'),
+	url('fonts/Segoe_WP_Semibold.woff2') format('woff2'),
+	url('fonts/Segoe_WP_Semibold.woff') format('woff'),
+	url('fonts/Segoe_WP_Semibold.ttf') format('truetype'),
+	url('fonts/Segoe_WP_Semibold.svg#SegoeWPN') format('svg');
+}
+@font-face {
+	font-family: 'Segoe_WP_SemiLight';
+	src: url('fonts/Segoe_WP_SemiLight.eot');
+	src: url('fonts/Segoe_WP_SemiLight.eot') format('embedded-opentype'),
+	url('fonts/Segoe_WP_SemiLight.woff2') format('woff2'),
+	url('fonts/Segoe_WP_SemiLight.woff') format('woff'),
+	url('fonts/Segoe_WP_SemiLight.ttf') format('truetype'),
+	url('fonts/Segoe_WP_SemiLight.svg#SegoeWPN') format('svg');
+}
+@font-face {
+	font-family: 'Segoe_WP_Bold';
+	src: url('fonts/Segoe_WP_Bold.eot');
+	src: url('fonts/Segoe_WP_Bold.eot') format('embedded-opentype'),
+	url('fonts/Segoe_WP_Bold.woff2') format('woff2'),
+	url('fonts/Segoe_WP_Bold.woff') format('woff'),
+	url('fonts/Segoe_WP_Bold.ttf') format('truetype'),
+	url('fonts/Segoe_WP_Bold.svg#SegoeWPN') format('svg');
+}
+@font-face {
+	font-family: 'Segoe_WP_Light';
+	src: url('fonts/Segoe_WP_Light.eot');
+	src: url('fonts/Segoe_WP_Light.eot') format('embedded-opentype'),
+	url('fonts/Segoe_WP_Light.woff2') format('woff2'),
+	url('fonts/Segoe_WP_Light.woff') format('woff'),
+	url('fonts/Segoe_WP_Light.ttf') format('truetype'),
+	url('fonts/Segoe_WP_Light.svg#SegoeWPN') format('svg');
+}
+
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	background: #fff;
+}
+.logo {
+	display: inline-block;
+	margin: 20px 28px 15px;
+}
+.primary_menu {
+	float: right;
+	display: inline-block;
+	margin: 25px 19px 20px;
+}
+.menu_item {
+	color: #676767;
+	font: 16.35px "SegoeWPN";
+	margin: 0 18px;
+}
+.menu_item:hover {
+	text-decoration: underline;
+	color: #2086e8;
+}
+.menu_item:active {
+	color: #bd0404;
+}
+.contact_btn {
+	font: 16.35px "SegoeWPN";
+	color: #fff;
+	padding: 3px 11px 7px;;
+	border: 1px solid #1784d1;
+	border-bottom: 0;
+	border-radius: 4px;
+	margin-left: 4px;
+	background-color: #37b2f8;
+	background: -webkit-linear-gradient(#37b2f8, #1f85e7); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#37b2f8, #1f85e7); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#37b2f8, #1f85e7); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#37b2f8, #1f85e7); /* Standard syntax (must be last) */
+}
+.contact_btn:hover {
+	background-color: #37b2f8;
+	background: -webkit-linear-gradient(#1f85e7, #37b2f8); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#1f85e7, #37b2f8); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#1f85e7, #37b2f8); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#1f85e7, #37b2f8); /* Standard syntax (must be last) */
+}
+.contact_btn:active {
+	color: #bd0404;
+}
+
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+/* banner
+-----------------------------------------------------------------------------*/
+.banner {
+	background-image: url("img/banner.png");
+	height: 534px;
+	border-top: 3px solid #6691b4;
+	background-repeat: no-repeat;
+	background-position: center -41px;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+}
+.banner_info {
+	margin-top: 148px;
+}
+.banner_title, .banner_text {
+	text-transform: uppercase;
+}
+.banner_title {
+	font: 52.35px "Segoe_WP_Semibold";
+}
+.banner_text {
+	font: 48.35px "Segoe_WP_SemiLight";
+	line-height: 1;
+}
+.banner_btn {
+	font: 34.35px "Segoe_WP_Bold";
+	color: #fff;
+	margin-top: 40px;
+	padding: 0 46px 9px;
+	border-radius: 10px;
+	border: 6px solid rgba(80, 152, 191, 0.5);
+	background-color: #6cd156;
+	background: -webkit-linear-gradient(#6cd156, #36af24); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#6cd156, #36af24); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#6cd156, #36af24); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#6cd156, #36af24); /* Standard syntax (must be last) */
+}
+.banner_btn:hover {
+	background-color: #6cd156;
+	background: -webkit-linear-gradient(#36af24, #6cd156); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#36af24, #6cd156); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#36af24, #6cd156); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#36af24, #6cd156); /* Standard syntax (must be last) */
+}
+.banner_btn:active {
+	color: #00600e;
+}
+/* end banner
+-----------------------------------------------------------------------------*/
+/* places
+-----------------------------------------------------------------------------*/
+.places {
+	background-color: #ececec;
+}
+.main_places {
+	position: relative;
+	top: -96px;
+	text-align: center;
+	width: 47%;
+	background-color: #fff;
+	margin: 0 auto;
+	padding-bottom: 7px;
+	border-radius: 5px;
+	border-bottom: 7px solid #51c03d;
+}
+.places_title {
+	font: 22.35px "Segoe_WP_Light";
+	color: #868686;
+	padding: 17px 0 23px;
+}
+.places_item {
+	display: inline-block;
+	margin: 0 4px 13px 0;
+}
+.places_name {
+	font: 14.35px "Segoe_WP_Light";
+	text-align: left;
+	line-height: 1;
+}
+.places_name>a {
+	color: #929292;
+}
+.places_name>a:hover {
+	text-decoration: underline;
+	color: #2086e8;
+}
+.places_name>a:active {
+	color: #bd0404;
+}
+/* end places
+-----------------------------------------------------------------------------*/
+/* List
+-----------------------------------------------------------------------------*/
+.list {
+	background-color: #ececec;
+	font-family: "Segoe_WP_Light";
+	color: #7e7c7c;
+}
+.main_list {
+	text-align: center;
+	position: relative;
+	top: -32px;
+}
+.list_title {
+	font-size: 26.35px;
+}
+.list_info {
+	font-size: 22.35px;
+	padding: 17px 0;
+}
+.list_name {
+	font-size: 20.35px;
+	line-height: 41px;
+}
+.list_name>a {
+	color: #7e7c7c;
+}
+.list_name>a:hover {
+	text-decoration: underline;
+	color: #2086e8;
+}
+.list_name>a:active {
+	color: #bd0404;
+}
+.list_item {
+	display: inline-block;
+	margin: 38px;
+}
+/* end List
+-----------------------------------------------------------------------------*/
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	margin: 0 auto;
+	font: 15.35px "Segoe_WP_Light";
+	color: #9a9a9a;
+	padding: 1px 0 8px;
+	text-align: center;
+	background: #414141;
+}
