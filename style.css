@@ -323,6 +323,9 @@ body {
 		display: block;
 		padding: 10px;
 	}
+	.menu_item:nth-child(3) {
+		margin-bottom: 10px;
+	}
 	.contact_btn {
 		margin-left: 17px;
 	}
